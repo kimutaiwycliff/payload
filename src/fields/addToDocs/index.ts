@@ -5,7 +5,7 @@ export const addToDocs: Field = {
   type: 'text',
   admin: {
     components: {
-      Label: '@root/fields/addToDocs/Label#Label',
+      Label: '@/fields/addToDocs/Label#Label',
     },
     description: 'Paste this code into the docs to link to this post',
     position: 'sidebar',

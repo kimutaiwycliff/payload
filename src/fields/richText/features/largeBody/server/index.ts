@@ -3,7 +3,7 @@ import { LargeBodyNode } from '@/fields/richText/features/largeBody/LargeBodyNod
 
 export const LargeBodyFeature = createServerFeature({
   feature: {
-    ClientFeature: '@root/fields/richText/features/largeBody/client#LargeBodyFeatureClient',
+    ClientFeature: '@/fields/richText/features/largeBody/client#LargeBodyFeatureClient',
     nodes: [
       {
         node: LargeBodyNode,
